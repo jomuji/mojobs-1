@@ -1,13 +1,44 @@
 /**** HEADER SECTION ************/
-
+.navbar-brand{
+        background-image:url('/wp-content/themes/mojobs-1/images/mojobs-logo.png');
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+    width:150px;
+}
 header.header{
     //margin-top:80px;
+    .hero-text{
+        color:#fff;
+        width:800px;
+        margin:-240px auto 0 -400px;
+        text-align: center;
+        height: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        h1{
+            font-size:40px;
+            text-transform: uppercase;
+            font-weight: 300;
+            span{
+                color: @brand-primary;
+                font-weight: 500;
+            }
+        }
+        .btn{
+            font-family: raleway;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
     .img-header{
-        background-image: url('images/header/header-1.jpg');
+        //background-image: url('images/header/bg-1.jpg');
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/header/bg-1.jpg');
         background-repeat:no-repeat;
         background-size:cover;
-        background-position:top center;
-        min-height:400px;
+        background-position:bottom center;
+        min-height:600px;
         padding-bottom:0;
         .enregistrement{
             position: relative;
@@ -107,6 +138,8 @@ header.header{
             a{
                 padding:10px 20px;
                 margin: 20px 0;
+                font-family: raleway;
+                
             }
         }
         

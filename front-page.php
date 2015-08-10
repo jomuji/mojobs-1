@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="jumbotron img-header">
-       <div class="container enregistrement">
+       <!--<div class="container enregistrement">
             
            <div class="col-sm-4">
                 <a href="/candidate-panel/enregistrement/"class="candidats">
@@ -27,7 +27,16 @@
                 
             </div>
            
-           </div>
+        </div>-->
+        
+        <div class="container">
+            <div class="hero-text">
+                <h1>Looking for a <span>job</span> ?<br> looking to <span>hire</span> the best candidate ?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim nulla at nisi condimentum, sed sodales ante hendrerit. Nam sit amet pharetra nunc. Duis fermentum, ligula ut suscipit elementum, mi quam fringilla libero, fringilla aliquam risus ipsum faucibus est.</p>
+                <p><a href="" class="btn btn-primary btn-lg">Candidate</a> <a href="" class="btn btn-primary btn-lg">Employer</a></p>
+            </div>
+            
+        </div>
         
     </div>
 </header><!--header-->
